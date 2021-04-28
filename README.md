@@ -1,5 +1,5 @@
 # ios-user-login
-A user login interface made for IOS with a standard ui design.
+A fully functional user login interface made for IOS with a standard ui design.
 Here are some screenshots:-
 <br>
 **login interface**
