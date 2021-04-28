@@ -2,8 +2,8 @@
 A user login interface made for IOS with a standard ui design.
 Here are some screenshots:-
 **login interface**
-![](/images/login)
+![](/images/login.png)
 **signup interface**
-![](/images/signup)
+![](/images/signup.png)
 **main**
-![](/images/goToMain)
+![](/images/goToMain.png)
