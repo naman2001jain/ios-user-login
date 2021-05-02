@@ -27,15 +27,17 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "goToMain"{
             let destinationVC = segue.destination as! MainViewController
-            if checkCredential(){
-                destinationVC.label = "success"
-            }else{
-                destinationVC.label = "failed"
-            }
+            destinationVC.label = "success"
+            
             
         }
     }
-    
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        if checkCredential(){
+            return true
+        }
+        return false
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
