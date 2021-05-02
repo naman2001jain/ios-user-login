@@ -20,6 +20,7 @@
 		ED6BB3442610F70E005A86F5 /* user_loginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BB3432610F70E005A86F5 /* user_loginTests.swift */; };
 		ED6BB34F2610F70E005A86F5 /* user_loginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BB34E2610F70E005A86F5 /* user_loginUITests.swift */; };
 		ED9C5DF526276E1D00FD16FA /* UserData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED9C5DF326276E1D00FD16FA /* UserData.xcdatamodeld */; };
+		EDE713A4263EEC89006BEAE5 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE713A3263EEC89006BEAE5 /* AlertManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		ED6BB34E2610F70E005A86F5 /* user_loginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user_loginUITests.swift; sourceTree = "<group>"; };
 		ED6BB3502610F70E005A86F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED9C5DF426276E1D00FD16FA /* UserData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserData.xcdatamodel; sourceTree = "<group>"; };
+		EDE713A3263EEC89006BEAE5 /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +186,7 @@
 			children = (
 				ED9C5DF326276E1D00FD16FA /* UserData.xcdatamodeld */,
 				ED67898E262772960043D836 /* UserDataHandler.swift */,
+				EDE713A3263EEC89006BEAE5 /* AlertManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -344,6 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDE713A4263EEC89006BEAE5 /* AlertManager.swift in Sources */,
 				ED24C7782633E2FB002C1853 /* MainViewController.swift in Sources */,
 				ED26E54C26334D9E00CA6BD8 /* SignupViewController.swift in Sources */,
 				ED67898F262772970043D836 /* UserDataHandler.swift in Sources */,

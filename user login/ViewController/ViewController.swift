@@ -35,8 +35,11 @@ class ViewController: UIViewController {
     override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
         if checkCredential(){
             return true
+        }else{
+            AlertManager.showIncorrectPassworAlert(on: self)
+            return false
         }
-        return false
+        
     }
     
     override func viewDidLoad() {
