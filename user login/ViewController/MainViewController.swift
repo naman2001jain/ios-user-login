@@ -6,15 +6,25 @@
 //
 
 import UIKit
+import WebKit
 
-class MainViewController: UIViewController {
-
-
-    @IBOutlet weak var lbl: UILabel!
-    var label:String?
+class MainViewController: UIViewController, WKNavigationDelegate {
+    
+    var webView: WKWebView!
+    
+    override func loadView() {
+        webView = WKWebView()
+        webView.navigationDelegate = self
+        view = webView
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        lbl.text = label
+       
+        let url = URL(string: "https://www.google.com")!
+        webView.load(URLRequest(url: url))
+        webView.allowsBackForwardNavigationGestures = true
     }
     
     

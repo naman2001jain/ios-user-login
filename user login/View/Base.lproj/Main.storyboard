@@ -123,25 +123,10 @@
                     <view key="view" contentMode="scaleToFill" id="tTD-Zp-crT">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v8x-1n-xxx">
-                                <rect key="frame" x="146.5" y="430" width="121" height="36"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="fZC-Hi-6Mn"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="v8x-1n-xxx" firstAttribute="centerX" secondItem="tTD-Zp-crT" secondAttribute="centerX" id="Bvo-h0-ujL"/>
-                            <constraint firstItem="v8x-1n-xxx" firstAttribute="centerY" secondItem="tTD-Zp-crT" secondAttribute="centerY" id="cFh-yv-Riw"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Main" id="Xf8-3z-cOa"/>
-                    <connections>
-                        <outlet property="lbl" destination="v8x-1n-xxx" id="8lg-BV-i1M"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PxF-89-spC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

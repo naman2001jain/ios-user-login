@@ -24,14 +24,7 @@ class ViewController: UIViewController {
         request.predicate = predicate
         loadData(with: request)
     }
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "goToMain"{
-            let destinationVC = segue.destination as! MainViewController
-            destinationVC.label = "success"
-            
-            
-        }
-    }
+   
     override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
         if checkCredential(){
             return true
